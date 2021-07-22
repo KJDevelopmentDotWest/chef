@@ -15,10 +15,12 @@ public class Salad {
     public void sortByCalories(){
         ArrayList<Vegetable> temp = new ArrayList<>();
         double[] calories = new double[getLength()];
+
         for (int i = 0; i < salad.size(); i++){
             calories[i] = salad.get(i).getCalorieContent();
         }
         Arrays.sort(calories);
+
         for (int i = 0; i < salad.size(); i++){
             for (Vegetable var : salad){
                 if (var.getCalorieContent() == calories[i]){
@@ -34,6 +36,7 @@ public class Salad {
 
     public void sortByType(){
         ArrayList<Vegetable> temp = new ArrayList<>();
+
         for (Vegetable var : salad){
             if (var instanceof TuberVegetable){
                 temp.add(var);
@@ -93,14 +96,17 @@ public class Salad {
 
     public String toStringWithinRange(int lowerBound, int upperBound){
         StringBuilder stringBuilder = new StringBuilder("");
+
         for (Vegetable var : salad){
             if (var.getCalorieContent() > lowerBound && var.getCalorieContent() < upperBound) stringBuilder.append(var.getName()).append("\n");
         }
+
         return stringBuilder.toString();
     }
 
     public String generateRecipe(){
         StringBuilder stringBuilder = new StringBuilder("");
+
         for (Vegetable var : salad){
             if (var.isCanBeCooked()){
                 stringBuilder.append("cut and boil ").append(var.getName()).append(" for ").append(var.getCookingTime()).append(" minutes").append("\n");
@@ -108,6 +114,7 @@ public class Salad {
                 stringBuilder.append("cut ").append(var.getName()).append("\n");
             }
         }
+
         stringBuilder.append("Then mix everything and add salt").append("\n");
         return stringBuilder.toString();
     }
