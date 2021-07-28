@@ -1,4 +1,4 @@
-package com.epam.jwd.ingredients;
+package com.epam.jwd.ingredient;
 
 public interface Vegetable {
     boolean isCanBeCooked();

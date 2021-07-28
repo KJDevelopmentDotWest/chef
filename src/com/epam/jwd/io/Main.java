@@ -1,20 +1,20 @@
 package com.epam.jwd.io;
 
-import com.epam.jwd.ingredients.*;
-import com.epam.jwd.ingredients.bulbvegetables.Garlic;
-import com.epam.jwd.ingredients.bulbvegetables.Onion;
-import com.epam.jwd.ingredients.fruitvegetables.Cucumber;
-import com.epam.jwd.ingredients.fruitvegetables.Eggplant;
-import com.epam.jwd.ingredients.fruitvegetables.Tomato;
-import com.epam.jwd.ingredients.rootvegetables.Beet;
-import com.epam.jwd.ingredients.rootvegetables.Carrot;
-import com.epam.jwd.ingredients.tubervegetables.Artichoke;
-import com.epam.jwd.ingredients.tubervegetables.Potato;
+import com.epam.jwd.ingredient.*;
+import com.epam.jwd.ingredient.bulbvegetable.Garlic;
+import com.epam.jwd.ingredient.bulbvegetable.Onion;
+import com.epam.jwd.ingredient.fruitvegetable.Cucumber;
+import com.epam.jwd.ingredient.fruitvegetable.Eggplant;
+import com.epam.jwd.ingredient.fruitvegetable.Tomato;
+import com.epam.jwd.ingredient.rootvegetable.Beet;
+import com.epam.jwd.ingredient.rootvegetable.Carrot;
+import com.epam.jwd.ingredient.tubervegetable.Artichoke;
+import com.epam.jwd.ingredient.tubervegetable.Potato;
 
 import java.util.Scanner;
 
 public class Main {
-    private static final Salad salad = new Salad();
+    private static final SaladLogic salad = new SaladLogic();
 
     public static void main(String[] args) {
         start();
