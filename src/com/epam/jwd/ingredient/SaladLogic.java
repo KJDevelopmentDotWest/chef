@@ -122,4 +122,15 @@ public class SaladLogic {
         stringBuilder.append("Then mix everything and add salt").append("\n");
         return stringBuilder.toString();
     }
+
+    @Override
+    public int hashCode() {
+        return salad.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof ArrayList) return salad.equals(obj);
+        else return false;
+    }
 }
