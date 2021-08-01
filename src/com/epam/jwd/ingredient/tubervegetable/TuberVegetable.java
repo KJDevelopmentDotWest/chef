@@ -16,4 +16,9 @@ public class TuberVegetable {
     public int hashCode(){
         return TYPE.hashCode();
     }
+
+    @Override
+    public String toString(){
+        return TYPE;
+    }
 }

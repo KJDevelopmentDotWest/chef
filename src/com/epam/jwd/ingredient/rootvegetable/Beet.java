@@ -45,4 +45,10 @@ public class Beet extends RootVegetable implements Vegetable {
     public int hashCode() {
         return NAME.hashCode();
     }
+
+
+    @Override
+    public String toString(){
+        return NAME;
+    }
 }

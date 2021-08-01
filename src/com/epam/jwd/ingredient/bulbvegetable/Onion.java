@@ -44,4 +44,10 @@ public class Onion extends BulbVegetable implements Vegetable {
     public int hashCode() {
         return NAME.hashCode();
     }
+
+
+    @Override
+    public String toString(){
+        return NAME;
+    }
 }

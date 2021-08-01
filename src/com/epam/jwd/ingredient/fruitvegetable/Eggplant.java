@@ -44,4 +44,10 @@ public class Eggplant extends FruitVegetable implements Vegetable {
     public int hashCode() {
         return NAME.hashCode();
     }
+
+
+    @Override
+    public String toString(){
+        return NAME;
+    }
 }

@@ -16,4 +16,9 @@ public class FruitVegetable {
     public int hashCode(){
         return TYPE.hashCode();
     }
+
+    @Override
+    public String toString(){
+        return TYPE;
+    }
 }
