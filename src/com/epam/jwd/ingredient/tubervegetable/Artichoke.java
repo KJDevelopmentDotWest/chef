@@ -1,7 +1,6 @@
 package com.epam.jwd.ingredient.tubervegetable;
 
-import com.epam.jwd.ingredient.Vegetable;
-import com.epam.jwd.ingredient.rootvegetable.RootVegetable;
+import com.epam.jwd.util.Vegetable;
 
 public class Artichoke extends TuberVegetable implements Vegetable {
 

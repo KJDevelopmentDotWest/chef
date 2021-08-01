@@ -1,6 +1,6 @@
 package com.epam.jwd.ingredient.tubervegetable;
 
-import com.epam.jwd.ingredient.Vegetable;
+import com.epam.jwd.util.Vegetable;
 
 public class Potato extends TuberVegetable implements Vegetable {
 

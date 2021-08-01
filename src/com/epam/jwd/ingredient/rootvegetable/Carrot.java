@@ -1,6 +1,6 @@
 package com.epam.jwd.ingredient.rootvegetable;
 
-import com.epam.jwd.ingredient.Vegetable;
+import com.epam.jwd.util.Vegetable;
 
 public class Carrot extends RootVegetable implements Vegetable {
 

@@ -1,6 +1,5 @@
 package com.epam.jwd.io;
 
-import com.epam.jwd.ingredient.*;
 import com.epam.jwd.ingredient.bulbvegetable.Garlic;
 import com.epam.jwd.ingredient.bulbvegetable.Onion;
 import com.epam.jwd.ingredient.fruitvegetable.Cucumber;
@@ -10,6 +9,7 @@ import com.epam.jwd.ingredient.rootvegetable.Beet;
 import com.epam.jwd.ingredient.rootvegetable.Carrot;
 import com.epam.jwd.ingredient.tubervegetable.Artichoke;
 import com.epam.jwd.ingredient.tubervegetable.Potato;
+import com.epam.jwd.util.SaladLogic;
 
 import java.util.Scanner;
 

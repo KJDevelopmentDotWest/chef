@@ -1,6 +1,6 @@
 package com.epam.jwd.ingredient.fruitvegetable;
 
-import com.epam.jwd.ingredient.Vegetable;
+import com.epam.jwd.util.Vegetable;
 
 public class Tomato extends FruitVegetable implements Vegetable {
 

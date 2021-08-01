@@ -1,6 +1,6 @@
 package com.epam.jwd.ingredient.bulbvegetable;
 
-import com.epam.jwd.ingredient.Vegetable;
+import com.epam.jwd.util.Vegetable;
 
 public class Onion extends BulbVegetable implements Vegetable {
 
